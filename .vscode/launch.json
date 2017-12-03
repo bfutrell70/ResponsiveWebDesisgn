@@ -7,6 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "Launch pattern-mostly-fluid",
+            "url": "${workspaceRoot}/pattern-mostly-fluid-quiz-blankcss.html",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "Launch Chrome against localhost",
             "file": "${workspaceRoot}/index.html",
             "webRoot": "${workspaceRoot}"
