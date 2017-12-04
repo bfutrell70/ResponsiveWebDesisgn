@@ -372,7 +372,15 @@ footer a {
 }
 
 /*
+ *
+ * Mwdia queries to adjust layout based on screen width
+ *
+ */
 
-Media queries to adjust layout based on screen width
-
-*/
+@media screen and (min-width: 800px) {
+  .content, .nav, .header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
