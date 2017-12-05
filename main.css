@@ -132,7 +132,11 @@ main {
  * Content
  *
  */
-
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*
  *
@@ -400,7 +404,17 @@ footer a {
 
 /*
   At 750px make 2 columns again...
+  start by making sections 50% width, then change
+  how they are displayed.
  */
+ @media screen and (min-width: 750px)
+ {
+   .hero, .top-news, .recent-news, .scores, .weather {
+    width: 50%;    
+  }
+
+   
+ }
 
 @media screen and (min-width: 860px) {
   .content, .nav, .header {
