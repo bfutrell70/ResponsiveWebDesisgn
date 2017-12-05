@@ -377,19 +377,34 @@ footer a {
  *
  */
 
-/* @media screen and (max-width: 400px) {
-  .nav {
+@media screen and (max-width: 430px) {
+  /* .nav {
     width: 300px;
     height: 100%;
     position: absolute;
     transform: translate(-300px, 0);
     transition: transform 0.3s ease;
+  } */
+  .header__title {
+    font-size: 2em;
+    text-align: center;
   }
-} */
+}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 431px) and (max-width: 550px)
+{
+  .header__title {
+    font-size: 3em;
+  }
+}
+
+/*
+  At 750px make 2 columns again...
+ */
+
+@media screen and (min-width: 860px) {
   .content, .nav, .header {
-    width: 800px;
+    width: 860px;
     margin-left: auto;
     margin-right: auto;
   }
