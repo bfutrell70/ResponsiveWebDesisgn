@@ -413,6 +413,13 @@ footer a {
     width: 50%;    
   }
 
+  .hero { order: 0; }
+  .top-news { order: 2; }
+  .scores { order: 4; }
+  .weather { order: 1; }
+  .recent-news { order: 3; }
+  
+  
    
  }
 
