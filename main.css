@@ -409,17 +409,18 @@ footer a {
  */
  @media screen and (min-width: 750px)
  {
-   .hero, .top-news, .recent-news, .scores, .weather {
+   .hero,  .recent-news, .weather, .top-news_scores {
     width: 50%;    
   }
+  /* .top-news, .scores, */
 
   .hero { order: 0; }
-  .top-news { order: 2; }
-  .scores { order: 4; }
   .weather { order: 1; }
+  .top-news_scores {order: 2;}
   .recent-news { order: 3; }
   
-  
+  .top-news { order: 0; }
+  .scores { order: 1; }
    
  }
 
