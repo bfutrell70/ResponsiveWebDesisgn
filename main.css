@@ -382,6 +382,10 @@ footer a {
  */
 
 @media screen and (max-width: 430px) {
+  /*
+    Alcatel IdealXCITE phone in portrait mode will
+    use this media query
+  */
   /* .nav {
     width: 300px;
     height: 100%;
