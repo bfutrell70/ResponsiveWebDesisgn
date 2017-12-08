@@ -73,7 +73,11 @@ ul {
   color: #212121;
 }
 
-
+.hamburger
+{
+  font-size: 3em;
+  text-align: right;
+}
 /*
  *
  * Top Level Navigation
@@ -386,31 +390,29 @@ footer a {
     Alcatel IdealXCITE phone in portrait mode will
     use this media query
   */
-  /* .nav {
-    width: 300px;
-    height: 100%;
-    position: absolute;
-    transform: translate(-300px, 0);
-    transition: transform 0.3s ease;
-  } */
+  
   .header__title {
     font-size: 2em;
     text-align: center;
   }
 
-  nav {
+  /* nav {
     width: 300px;
-    position: absolute;
+    position: absolute; */
+    
     /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);
+    
+    /* -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0); */
+    
     /* Optionally, we animate the drawer. */
-    transition: transform 0.3s ease;
+    
+    /* transition: transform 0.3s ease;
   }
   nav.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-  }
+  } */
 }
 
 @media screen and (min-width: 431px) and (max-width: 550px)
@@ -420,7 +422,7 @@ footer a {
   }
 
   /* remove the hamburger menu */
-  nav {
+  /* nav {
     position: relative;
     transform: translate(0,0);
   }
@@ -431,7 +433,7 @@ footer a {
   main {
     width: auto;
     flex-grow: 1;
-  }
+  } */
 }
 
 /*
