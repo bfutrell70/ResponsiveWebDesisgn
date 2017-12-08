@@ -7,8 +7,15 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "Chrome: off-canvas",
+            "file": "${workspaceRoot}/off-canvas/off-canvas.html",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "Launch pattern-mostly-fluid",
-            "url": "${workspaceRoot}/pattern-mostly-fluid-quiz-blankcss.html",
+            "file": "${workspaceRoot}/pattern-mostly-fluid-quiz-blankcss.html",
             "webRoot": "${workspaceRoot}"
         },
         {
