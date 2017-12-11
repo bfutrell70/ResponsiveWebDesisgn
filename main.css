@@ -429,9 +429,9 @@ footer a {
     .header__title {
         font-size: 3em;
     }
-    .nav__list {
+    /* .nav__list {
         display: block;
-    }
+    } */
     /* remove the hamburger menu */
     /* nav {
     position: relative;
@@ -479,9 +479,6 @@ footer a {
     }
     .scores {
         order: 1;
-    }
-    .nav__list {
-        display: inline-block;
     }
 }
 
