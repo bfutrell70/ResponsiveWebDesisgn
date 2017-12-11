@@ -14,14 +14,14 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch pattern-mostly-fluid",
+            "name": "Chrome: pattern-mostly-fluid.html",
             "file": "${workspaceRoot}/pattern-mostly-fluid-quiz-blankcss.html",
             "webRoot": "${workspaceRoot}"
         },
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Chrome: index.html",
             "file": "${workspaceRoot}/index.html",
             "webRoot": "${workspaceRoot}"
         }
