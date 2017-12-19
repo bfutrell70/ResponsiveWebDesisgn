@@ -9,6 +9,8 @@
     display: none;
   }
 
+/*  580px and less - show hamburger menu  */
+
  @media screen and (max-width: 430px) {
     /*
     Alcatel IdealXCITE phone in portrait mode will
