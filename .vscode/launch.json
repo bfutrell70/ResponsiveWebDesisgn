@@ -7,6 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "Chrome: off-canvas 2",
+            "file": "${workspaceRoot}/off-canvas2/index.html",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "Chrome: off-canvas",
             "file": "${workspaceRoot}/off-canvas/off-canvas.html",
             "webRoot": "${workspaceRoot}"

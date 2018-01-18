@@ -1,0 +1,38 @@
+html, main, body {
+    width: 100%;
+}
+
+nav {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
+    background-color: aqua;
+}
+
+nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+main {
+    background-color: chartreuse
+}
+
+svg {
+    width: 40px;
+}
+
+@media (min-width: 600px) {
+    nav {
+        /* position: relative; */
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+    main {
+        width: auto;
+        flex-grow: 1;
+    }
+}
