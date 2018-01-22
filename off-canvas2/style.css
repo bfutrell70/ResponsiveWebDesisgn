@@ -85,6 +85,8 @@ main {
       nav width is now fixed but the right margin of the <p> element isn't quite right.
     */
     /* min-width: 100%; */
+    /* I adjusted the min-width to make the right side of the text have some space
+       between it and the right side of the window. */
     min-width: 90%;
     width: 0;
 }
