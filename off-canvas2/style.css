@@ -67,6 +67,10 @@ main {
     height: 100%;
 }
 
+.main_text {
+  width: 60%;
+}
+
 /*
  * Off-canvas layout styles.
  */
