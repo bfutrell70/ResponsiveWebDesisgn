@@ -68,7 +68,11 @@ main {
 }
 
 .main_text {
-  width: 60%;
+  /* width: 60%; */
+  /* display: inline-block; */
+  margin: 10px;
+  padding: 10px;
+  /* position: relative; */
 }
 
 /*
