@@ -1,0 +1,30 @@
+/* This file is for media queries. */
+
+@media screen and (max-width: 540px) {
+    /* 
+        Show hamburger menu 
+        Set .header__title font size to 3em (originally 4em)
+        set orientation of li (.nav__item) elements under .nav__list to vertical
+    */
+    
+}
+
+@media screen and (min-width: 541px) {
+    /* 
+        hide hamburger menu 
+        move nav to under the header section
+        set orientation of li (.nav__item) elements under .nav__list to horizontal
+    */
+}
+
+@media screen and (min-width: 641px) {
+    /* 
+        Arrange sections
+    */
+}
+
+@media screen and (min-width: 861px) {
+    /* 
+        Set viewport to 860px, margins to auto.
+    */
+}
