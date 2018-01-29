@@ -83,7 +83,14 @@ ul {
   color: #212121;
 }
 
+#hamburger {
+  display: inline-flex;
+  text-align: right;
+}
 
+svg {
+  width: 40px;
+}
 /*
  *
  * Top Level Navigation
