@@ -1,10 +1,10 @@
 /* This file is for media queries. */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 580px) {
     /* 
-        Show hamburger menu 
-        Set .header__title font size to 3em (originally 4em)
-        set orientation of li (.nav__item) elements under .nav__list to vertical
+    Show hamburger menu 
+    Set .header__title font size to 3em (originally 4em)
+    set orientation of li (.nav__item) elements under .nav__list to vertical
     */
 
     .hamburger {
@@ -15,10 +15,41 @@
     .header__title {
         font-size: 3em;
     }
-    
+
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 300px;
+        position: absolute;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+    .nav.open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #e0e0e0;
+        width: 100%;
+        text-align: left;
+    }
+    .header__menu {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        padding: 1em;
+    }
+
+    .header__menu {
+    display: inline;
+    }
 }
 
-@media screen and (min-width: 541px) {
+@media screen and (min-width: 581px) {
     /* 
         hide hamburger menu 
         move nav to under the header section
@@ -44,4 +75,5 @@
     /* 
         Set viewport to 860px, margins to auto.
     */
+    
 }
