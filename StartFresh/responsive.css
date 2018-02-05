@@ -1,5 +1,10 @@
 /* This file is for media queries. */
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 580px) {
     /* 
     Show hamburger menu 
@@ -65,32 +70,32 @@
     }
 
 }@media screen and (min-width: 750px) {
-    /* .hero,
-    .recent-news,
-    .weather,
-    .top-news_scores {
-      width: 50%;
-    } */
-    
-    /* .top-news, .scores, */
-    /* .hero {
-      order: 0;
+    .top-news,
+    .scores {
+        width: 50%;
     }
     .weather {
-      order: 1;
-    }
-    .top-news_scores {
-      order: 2;
+        width: 40%;
     }
     .recent-news {
-      order: 3;
+        width: 60%;
+    }
+
+    .hero {
+        order: 0;
     }
     .top-news {
-      order: 0;
+        order: 1;
     }
     .scores {
-      order: 1;
-    } */
+        order: 2;
+    }
+    .weather {
+        order: 4;
+    }
+    .recent-news {
+        order: 3;
+    }
 }
 
 @media screen and (min-width: 860px) {
