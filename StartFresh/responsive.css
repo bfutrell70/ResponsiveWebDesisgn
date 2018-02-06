@@ -5,6 +5,12 @@
     flex-wrap: wrap;
 }
 
+.top-news,
+.scores,
+.weather,.recent-news {
+    width: 100%;
+}
+
 @media screen and (max-width: 580px) {
     /* 
     Show hamburger menu 
