@@ -5,6 +5,7 @@
     flex-wrap: wrap;
 }
 
+/* set widths to 100% to override user agent stylesheet */
 .top-news,
 .scores,
 .weather,.recent-news {
